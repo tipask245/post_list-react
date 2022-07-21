@@ -1,0 +1,34 @@
+.post {
+  border: 2px solid brown;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* .post_content {
+  
+} */
+
+.post_btn > button{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.posts_header {
+  text-align: center;
+  margin: 15px 0;
+} 
+
+.posts_not_found {
+  text-align: center;
+  opacity: 50%;
+  font-weight: 300;
+}

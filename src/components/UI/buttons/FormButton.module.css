@@ -1,0 +1,11 @@
+.form_button {
+  height: 30px;
+  min-width: 40px;
+  max-width: px;
+  border-radius: 15px;
+  border: 2px solid brown;
+  background-color: coral;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 15px 0;
+}

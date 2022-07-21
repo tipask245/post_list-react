@@ -1,0 +1,11 @@
+.form_input {
+  display: grid;
+  margin: 15px 0;
+}
+
+.create_inp {
+  height: 24px;
+  border-radius: 15px;
+  border: 1px solid brown;
+  padding: 7px;
+}
