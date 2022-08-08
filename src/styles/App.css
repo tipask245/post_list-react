@@ -2,12 +2,48 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App {
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+nav  a {
+  color: white;
+  transition: all ease 0.2s;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: coral;
+  transition: all ease 0.2s;
+}
+
+.App, .Posts, .Error, .About {
   width: 700px; 
   margin: 0 auto;
 }
+
+.Error {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  
+}
+
+.error-title {
+  margin-bottom: 25px;
+}
+
 
 .create_post {
   display: grid;
@@ -16,3 +52,12 @@
 .create_post > label {
   margin-top: 15px;
 }
+
+.nav-bar {
+  display: flex;
+  height: 50px;
+  padding: 0.5rem;
+  background-color: brown;
+  margin-bottom: 15px;
+}
+

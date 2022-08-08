@@ -1,0 +1,16 @@
+.nav_ul {
+    display: flex;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.nav_link {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.name { 
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+}

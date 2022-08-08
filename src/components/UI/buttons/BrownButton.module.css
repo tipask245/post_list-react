@@ -1,0 +1,8 @@
+.brown_button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}

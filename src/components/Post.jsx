@@ -1,4 +1,5 @@
 import React from 'react'
+import BrownButton from './UI/buttons/BrownButton'
 
 const Post = (props) => {
 
@@ -9,7 +10,7 @@ const Post = (props) => {
         <div className="post_descrip">{props.post.description}</div>
       </div>
       <div className="post_btn">
-        <button onClick={() => props.del(props.post)} className='delete_post'>DEL</button>
+        <BrownButton onClick={() => props.del(props.post)} className='button'>DEL</BrownButton>
       </div>
     </div>
   )
